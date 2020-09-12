@@ -1,0 +1,24 @@
+charset = "abcdefghijklmnopqrstuvwxyzQWERTYUIOPASDFGHJKLZXCVBNM1234567890!@#$%^&*()"
+
+
+passw = "sagar"
+
+i=0
+size= 8
+while i< size:
+	salt = salt + charset[rand()]
+	i+=1
+
+salt = 'AkE8$@ki'
+
+salt = md5(salt)		# 32 bit hash of salt
+
+salt = 287687afee675e6e...32 bits
+
+passw = md5(passw)
+
+securePass = md5(salt + passw)
+
+
+
+

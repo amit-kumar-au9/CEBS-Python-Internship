@@ -1,0 +1,24 @@
+file = open("name.txt","mode")
+
+
+w -> write
+
+r -> read
+
+a-> append
+
+rw -> read/write
+
+w+ ->read/write
+
+r+ ->red/write
+
+
+b-> binary
+
+
+
+
+
+
+

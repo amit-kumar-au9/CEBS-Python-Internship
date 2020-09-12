@@ -1,0 +1,58 @@
+class A
+{
+	void show()
+	{
+		SOP("A show");
+	}
+}
+interface My
+{
+	void show();
+}
+
+class AIMPL extends A implements My
+{
+	
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+interface My1
+{
+	default void show()
+	{
+		SOP("show1");
+	}
+}
+
+
+interface My2
+{
+	default void show()
+	{
+		SOP("show2");
+	}
+}
+
+class A implements My1,My2
+{
+	@Override
+	public void show()
+	{
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

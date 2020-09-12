@@ -1,0 +1,104 @@
+*********************************************************
+	****	QUIZ	****
+	1. Add Question
+	2. Play Quiz
+	0. Exit
+
+*********************************************************
+choice is 1
+
+	Enter Details : -
+
+	Question 1 : What is Python?
+
+	Option a : python is snake
+
+	Option b : Python is programing
+
+	do you want to add more Options (Y/N) : y
+
+	Option c : python is sooo boring
+	
+	do you want to add more options (y/N) : n
+
+	Correct Option (a/b/c ) : d
+
+	OOPS!! please try with (a/b/c) : b
+
+
+	Do you want to add more question (Y/N) : y
+
+	Question 2:.....
+
+	........
+	.........
+
+	......
+
+
+	Do you want to add more Question (Y/N) : n
+
+
+*********************************************************
+	****	QUIZ	****
+	1. Add Question
+	2. Play Quiz
+	0. Exit
+
+*********************************************************
+choice is 2:
+
+	Play 15 random Question from list[DS] (non repeated)
+
+
+	Question 1 : what is java?
+
+	Option a : 		Option b :
+
+	Option c :		Option d :  
+
+	Choice (a/b/c/d) : f
+	OOPS! Try with (a/b/c/d) : b
+
+
+	Question 2 : what is Python?
+	Option a : 		Option b :
+
+	Option c :		  
+
+	Choice (a/b/c) : d
+	OOPS! Try with (a/b/c) : b
+
+	
+	......
+
+	
+**********************************************'
+	Score Board
+
+	Right Answers : 10
+
+	wrong answers : 5
+
+	do you want to show wrong answers (Y/N) : y
+
+	Question 4 : ...................
+
+	Option c : .......
+
+
+	Question 7 : .....................
+
+	Option d :..........
+
+
+
+
+
+
+
+
+
+
+ 
+

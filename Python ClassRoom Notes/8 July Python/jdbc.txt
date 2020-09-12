@@ -1,0 +1,51 @@
+1) Register Driver
+
+	Class.forName("com.mysql.jdbc.Driver");
+
+
+2) Create Connection
+
+	Connection conn = DriverManager.getConnection("URL with Driver bridge","UserName","Password");
+
+interface Connection
+{
+
+}
+
+class MySqlConnection implements Connection
+{
+
+}
+
+class DriverManager
+{
+	static MySqlConnection getConnection()
+	{
+		return con;
+	}
+}
+
+3) Create SQL Query
+
+	String sql = "DML/DCL/DDL/DQL";
+			CRUD
+			delete/insert/update	it returns no of rows
+
+			select 			it returs 2D data or empty set
+
+	Statement stmt = conn.createStatement();
+
+	stmt.execute(sql)	->boolean
+	stmt.executeUpdate(sql)	->int
+	stmt.executeQuery(sql)	->ResultSet
+	
+4) only for DQL Query
+
+	ResultSet rs = stmt.executeQuery("select * from Table where condition")	
+
+	while( rs.next())
+	{
+		SOP(rs.getInt(index->int) or rs.getInt(ColName->string) )
+		SOP(rs.getString())
+		SOP(rs.getDate()
+	}
